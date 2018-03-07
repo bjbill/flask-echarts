@@ -1,7 +1,7 @@
 # coding:utf-8
 
 import matplotlib as mpl
-mpl.use('TkAgg') #
+mpl.use('TkAgg') # matplotlib v 2.2 需要，2.1.2 不需要
 import matplotlib.pyplot as plt
 decisionNode = dict(boxstyle="sawtooth", fc='0.8') # 决策节点描述
 leafNode = dict(boxstyle='round4', fc='0.8') # 叶子节点描述
